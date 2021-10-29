@@ -1,6 +1,7 @@
 import React from 'react';
 import * as C from './App.styles';
 import { Item } from './types/Item';
+import { Category } from './types/Category';
 import { categories } from './data/categories';
 import { items } from './data/items';
 import { getCurrentMonth, filterListByMonth } from './functions/dateFilter';
